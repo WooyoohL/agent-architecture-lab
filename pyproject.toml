@@ -1,0 +1,10 @@
+[project]
+name = "agent-architecture-lab"
+version = "0.1.0"
+description = "A small lab for learning agent architecture from first principles."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
